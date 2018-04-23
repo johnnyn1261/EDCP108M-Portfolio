@@ -16,34 +16,72 @@
 	<link rel="stylesheet" href="css/fontawesome-all.css">
 </head>
 <body>
+
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container-fluid">
+			<a href="#" class="navbar-brand"><img src="img/logo1.png" alt="edcp108m site logo"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Studying</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Resources</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Links</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
 	<!-- Navigation -->
 	<header>
-		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-			<div class="container-fluid">
-				<a href="#" class="navbar-brand"><img src="img/logo1.png" alt="edcp108m site logo"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">About</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">Studying</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">Resources</a></li>
-						<li class="nav-item"><a href="#" class="nav-link">Links</a></li>
-					</ul>
+		<!--- Image Slider -->
+		<div id="slides" class="carousel slide welcome_top" data-ride="carousel">
+			<ul class="carousel-indicators">
+				<li data-target="#slides" data-slide-to="0" class="active"></li>
+				<li data-target="#slides" data-slide-to="1"></li>
+				<li data-target="#slides" data-slide-to="2"></li>
+				<li data-target="#slides" data-slide-to="3"></li>
+				<li data-target="#slides" data-slide-to="4"></li>
+				<li data-target="#slides" data-slide-to="5"></li>
+				<li data-target="#slides" data-slide-to="6"></li>
+			</ul>
+			<div class="carousel-inner tint">
+				<div class="carousel-item fill active">
+					<img src="img/slider/campuspicture.jpg" alt="">
+				</div>
+				<div class="carousel-item fill">
+					<img src="img/slider/Studying-math.jpg" alt="">
+				</div>
+				<div class="carousel-item fill">
+					<img src="img/slider/2nd-upgrades.jpg" alt="">
+				</div>
+				<div class="carousel-item fill">
+					<img src="img/slider/Studying-math.png" alt="">
+				</div>
+				<div class="carousel-item fill">
+					<img src="img/slider/mck-front.jpg" alt="">
+				</div>
+				<div class="carousel-item fill">
+					<img src="img/slider/math-chalk.jpg" alt="">
+				</div>
+				<div class="carousel-item fill">
+					<img src="img/slider/readingroom.jpg" alt="">
 				</div>
 			</div>
-		</nav>
-		<div class="welcome">
-	      <center>
-			  <img src="img/welcome_logo.png" alt="edcp108m site logo">
-			  <h1>Most Valuable Math Takeaways!</h1>
-	      </center>
-	    </div>
+
+			<div class="welcome_top">
+			  <center>
+				  <img src="img/welcome_logo.png" alt="edcp108m site logo">
+				  <h1>Most Valuable Math Takeaways!</h1>
+			  </center>
+			</div>
+		</div>
 	</header>
 
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+    <script src="js/jquery.js"></script>
+  	<script src="js/bootstrap.js"></script>
 </body>
 </html>
