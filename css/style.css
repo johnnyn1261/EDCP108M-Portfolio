@@ -4,11 +4,19 @@ header {
   box-shadow: 0px 0px 50px #5d5d5d;
 }
 
-#about h1, #studying h1, #resources h1, #links h1 {
+#about h1, #concepts h1, #studying h1, #resources h1, #links h1 {
   font-family: "Comic Sans MS", cursive, sans-serif;
   font-weight: bold;
   font-size: 50px;
 }
+
+/*
+#about {
+  background: linear-gradient(#f72525, #ff6666);
+  padding-bottom: 160px;
+  box-shadow: 1px 1px 10px #5588bb;
+}
+*/
 
 .padding-top {
   padding-top: 120px;
@@ -49,11 +57,6 @@ header {
   padding-left: 400px;
 }
 
-.centerBlock {
-  display: table;
-  margin: auto;
-}
-
 .welcome_top h1 {
   font-size: 50px;
   font-weight: 500;
@@ -62,6 +65,21 @@ header {
 
 .welcome_top img {
     width: 400px;
+}
+
+.fa-lightbulb {
+  font-size: 100px;
+  color: #f7f300;
+}
+
+.fa-users {
+  font-size: 100px;
+  color: #000;
+}
+
+.fa-cogs {
+  font-size: 100px;
+  color: #ff0000;
 }
 
 .fill {
