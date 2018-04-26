@@ -1,7 +1,21 @@
 header {
   width: 100%;
-  height: 100vh;
+  height: 81vh;
   box-shadow: 0px 0px 50px #5d5d5d;
+}
+
+#about h1, #studying h1, #resources h1, #links h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.padding-top {
+  padding-top: 120px;
+}
+
+.padding {
+  padding: 10px;
 }
 
 .navbar img {
@@ -11,6 +25,7 @@ header {
 .navbar {
   padding: .1rem;
   background-color: red !important;
+  box-shadow: 0px 0px 50px #5d5d5d;
 }
 
 .navbar-nav li {
@@ -28,6 +43,15 @@ header {
   width: 100%;
   top: 45%;
   transform: translateY(-50%);
+}
+
+.padding-left {
+  padding-left: 400px;
+}
+
+.centerBlock {
+  display: table;
+  margin: auto;
 }
 
 .welcome_top h1 {
@@ -73,8 +97,87 @@ header {
   background: rgba(250,250,0, 0.6);
 }
 
+.tintx {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(250,0,0, 0.5);
+}
 
+#studying img {
+  width: 80%;
+}
 
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('../img/slider/math-chalk.jpg');
+  opacity: .5;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+iframe {
+  text-align: center;
+   display: block; // set display type
+    margin: 0 auto;
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #d5d5d5;
+}
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
 
 @media (max-width: 576px) {
     .welcome_top img {
