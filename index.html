@@ -18,6 +18,11 @@
 </head>
 <body>
 
+	<audio autoplay loop>
+  	<source src="classical-study.mp3" type="audio/mpeg">
+  	Your browser does not support the audio element.
+	</audio>
+
 	<!-- Top anchor point -->
 	<div id="head"></div>
 
@@ -30,11 +35,11 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+					<li class="nav-item"><a href="#head" class="nav-link active">Home</a></li>
 					<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
 					<li class="nav-item"><a href="#concepts" class="nav-link">Concepts</a></li>
 					<li class="nav-item"><a href="#process" class="nav-link">The Process</a></li>
-					<li class="nav-item"><a href="#resources" class="nav-link">Resources</a></li>
+					<li class="nav-item"><a href="#hack" class="nav-link">Resources</a></li>
 				</ul>
 			</div>
 		</div>
@@ -102,7 +107,7 @@
 				<h1>{About}</h1>
 				<hr>
 				<h3>Welcome to my EDCP108M Portfolio!</h3>
-				<img src="img/right-img.JPG" alt="right image" class="img-fluid">
+				<img src="img/right-img.JPG" width="500px" alt="right image" class="img-fluid padding">
 			</div>
 			<hr>
 			<div class="col-12 padding">
@@ -121,8 +126,8 @@
 	</div>
 
 	<!--- Concepts -->
-	<div class="container-fluid padding">
-		<div id="concepts" class="row welcome text-center padding-top">
+	<div id="concepts" class="container-fluid padding">
+		<div class="row welcome text-center padding-top">
 			<div class="col-12">
 				<h1>{Concepts}</h1>
 				<hr>
@@ -174,12 +179,12 @@
 
 
 	<!--- Process -->
-	<div class="container-fluid padding">
-		<div id="process" class="row welcome text-center padding-top">
+	<div id="process" class="container-fluid padding">
+		<div class="row welcome text-center padding-top">
 			<div class="col-12">
 				<h1>{The Process}</h1>
 				<hr>
-				<h3>The Three Crutual Parts to Achieving Math Success</h3><br>
+				<h3>The Three Crucial Parts to Achieving Math Success</h3><br>
 			</div>
 			<hr>
 		</div>
@@ -219,7 +224,7 @@
 				<a href="https://www.wikihow.com/Take-Perfect-Math-Notes" target="_blank" class="btn btn-primary">How to Take Perfect Math Notes</a></p>
 			</div>
 			<div class="col-lg-6">
-				<img src="img/samp-notes.jpg" alt="notes" class="img-fluid">
+				<img src="img/samp-notes.JPG" alt="notes" class="img-fluid">
 				<p class="text-center" style="padding: 15px;">The above notes were taken from my CMSC351 class this past semester using my described note-taking steps.
 				Each of these steps appeals to the Affective domain of learning due to the physical nature of taking notes; from physically being present in lecture to highlighting the important details that you wish to remember later,
 				every action encourages you to better remember new material when you learn it.</p>
@@ -271,7 +276,7 @@
 			exams are extremely challenging due to my nervousness and fear of failing. That said, I am not alone. In fact, it seems as though most people have to
 			overcome this general fear of failure in order to strengthen their Behavioral domain of learning. In addition to my own word, click the image below
 			and consider the words of these students as well.<br>In the end, my main takeaway from taking exams, is to relax and keep up a positive self-talk by
-			telling myself that I have prepared to the best of my ability and I'm going to do my best.<br>
+			telling myself that I have prepared to the best of my ability and I'm going to do my best.<br><br>
 			<a href="https://www.youcubed.org/resource/mindset-boosting-videos/" target="_blank" >
 				<img src="img/mindset.JPG" alt="mindset" border="1"  width="50%">
 			</a>
@@ -285,11 +290,11 @@
 			<div id="fixed" class="tintx"></div>
 		</div>
 	</figure>
-
-
+	<div id="hack"></div>
+<br><br><br><br>
 	<!--- Resources -->
-	<div class="container-fluid padding">
-		<div id="resources" class="row welcome text-center padding-top padding">
+	<div id="resources" class="container-fluid padding">
+		<div class="row welcome text-center padding padding-top">
 			<div class="col-12">
 				<h1>{Resources}</h1>
 				<hr>
@@ -308,7 +313,7 @@
 	</div>
 
 	<!--- Cards -->
-	<div class="container-fluid padding">
+	<div class="cards container-fluid padding">
 		<div class="row padding">
 			<div class="col-md-4">
 				<div class="card">
@@ -408,5 +413,7 @@
 
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.js"></script>
+	<script src="js/script.js"></script>
+
 </body>
 </html>
